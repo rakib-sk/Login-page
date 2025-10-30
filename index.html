@@ -1,0 +1,70 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+ <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel = "stylesheet" href = "css/style.css">
+</head>  
+</head>
+<body>
+  <div class="wraper">
+
+    <!--======== Login Form ===========-->
+    <div class="from-header">
+      <div class="title-login">Sing In</div>
+    </div>
+    <form action="#" class="login-from" autocomplete="off">
+      <div class="input-box">
+        <input type="text" class="input-feild" id="log-email" required>
+        <label for="log-email" class="label">Email</label>
+        <i class="fa-solid fa-envelope icon"></i>
+      </div>
+      <div class="input-box">
+        <input type="password" class="input-feild" id="log-pass" required>
+        <label for="log-pass" class="label">Password</label>
+        <i class="fa-solid fa-lock icon"></i>
+      </div>
+      <div class="form-cols">
+        <div class="cols-1"></div>
+        <div class="cols-2">
+          <a href="#">Forgot Password?</a>
+        </div>
+      </div>
+      <div class="input-box">
+        <button class="submit-btn" id="signInBtn">Sign in <i class="fa-solid fa-right-to-bracket"></i></button>
+      </div>
+      <div class="switch-from">
+        <span>Don't have an account? <a href="#" id="showSignup"> Register</a></span>
+      </div>
+    </form>
+    
+    <form class="signup-form form">
+      <div class="input-box">
+        <input type="text" class="input-feild" required>
+        <label class="label">Full Name</label>
+        <i class="fa-solid fa-user icon"></i>
+      </div>
+
+      <div class="input-box">
+        <input type="email" class="input-feild" required>
+        <label class="label">Email</label>
+        <i class="fa-solid fa-envelope icon"></i>
+      </div>
+
+      <div class="input-box">
+        <input type="password" class="input-feild" required>
+        <label class="label">Password</label>
+        <i class="fa-solid fa-lock icon"></i>
+      </div>
+
+      <button class="submit-btn" type="submit">
+        <span>Sign Up</span> <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <p class="switch-from">Already have an account? <a href="#" id="showLogin">Login</a></p>
+    </form>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
